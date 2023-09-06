@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@200;300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  text-align: center;
+  background: #f7f7f7;
+}
+
+footer{
+  margin-top: 60px;
+  padding: 1rem ;
+  font-size: 0.9rem;
+  box-shadow: 0px 3px 10px #464646; /*efeito de sombra*/;
+}
+
+h1,h2{
+  color: rgb(82, 80, 80);
+}
+
+p {
+  color: #949494;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 3px 10px #464646; /*efeito de sombra*/;
+}
+
+main{
+  margin-top: 10px;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.7rem 6rem;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  color: #9400FF;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.15rem;
+  color: gray;
+  font-weight: 400;
+}
+
+.login-button button {
+  border: none;
+  background-color: #9400FF;;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.login-button button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+#spiderman2 img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+#spiderman2 h1 {
+ margin: 0.5rem 0px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem 2rem;
+  
+}
+
+.grid img {
+border-radius: 4px;
+}
+
+.titulostar {
+  font-size: 0.6rem;
+  margin-bottom: 10px;
+  text-align: start;
+  font-weight: 800;
+}
+
+.descricao {
+  display: grid;
+}
+
+.descricaostar {
+  display: grid;
+  text-align: start;
+  color: rgb(82, 80, 80);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.gg {
+  display: grid;
+  gap: 60px;
+  margin: 0px 40px;
+  background: white;
+  border-radius: 4px;
+}
+
+#rv{
+  color: #9400FF;
+}

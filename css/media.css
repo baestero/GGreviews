@@ -1,0 +1,109 @@
+@media screen and (max-width: 730px) {
+
+  .navbar {
+    padding: 1.5rem 4rem;
+  }
+
+  .nav-item {
+    display: none;
+  }
+
+  .login-button {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+   
+  }
+
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .mobile-menu .nav-item {
+    display: block;
+    padding-top: 1.2rem;
+  }
+
+  .mobile-menu .login-button {
+    display: block;
+    padding: 1rem 2rem;
+  }
+
+  .mobile-menu .login-button button {
+    width: 100%;
+  }
+  .open {
+    display: block;
+  }
+
+  #spiderman2 h1 {
+    font-size: 1.2rem;
+  }
+
+
+  #spiderman2 p {
+    font-size: 0.7rem;
+    margin: 0 25px;
+  }
+
+
+  .gg{
+    gap: 30px;
+    margin: 0px 10px;
+  }
+
+p.descricaostar{
+  font-size: 0.7rem;
+}
+
+h2{
+  font-size: 1rem;
+}
+
+footer{
+  font-size: 0.7rem;
+}
+
+}
+@media screen and (min-width: 1113px) {
+
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+
+@media screen and (min-width: 1600px ) {
+
+
+  h1{
+    font-size: 1.6rem;
+  }
+
+  .gg{
+   margin:0 100px;
+  }
+
+
+
+  p.titulostar{
+    font-size: 0.8rem;
+  }
+
+p.descricaostar{
+font-size: 1.2rem;
+line-height: 1.5;
+}
+
+}
