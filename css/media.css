@@ -63,7 +63,7 @@
     margin: 0px 10px;
   }
 
-p.descricaostar{
+p.review-item{
   font-size: 0.7rem;
 }
 
@@ -97,11 +97,11 @@ footer{
 
 
 
-  p.titulostar{
+  p.titulo-item{
     font-size: 0.8rem;
   }
 
-p.descricaostar{
+p.review-item{
 font-size: 1.2rem;
 line-height: 1.5;
 }

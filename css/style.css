@@ -11,14 +11,15 @@ body {
   background: #f7f7f7;
 }
 
-footer{
+footer {
   margin-top: 60px;
-  padding: 1rem ;
+  padding: 1rem;
   font-size: 0.9rem;
-  box-shadow: 0px 3px 10px #464646; /*efeito de sombra*/;
+  box-shadow: 0px 3px 10px #464646; /*efeito de sombra*/
 }
 
-h1,h2{
+h1,
+h2 {
   color: rgb(82, 80, 80);
 }
 
@@ -33,19 +34,17 @@ img {
 header {
   width: 100%;
   background-color: white;
-  box-shadow: 0px 3px 10px #464646; /*efeito de sombra*/;
+  box-shadow: 0px 3px 10px #464646; /*efeito de sombra*/
 }
 
-main{
+main {
   margin-top: 10px;
 }
-
 
 .navbar {
   display: flex;
   justify-content: space-between;
   padding: 1.7rem 6rem;
-
 }
 
 .logo {
@@ -54,7 +53,7 @@ main{
 }
 
 .logo h1 {
-  color: #9400FF;
+  color: #9400ff;
 }
 
 .nav-list {
@@ -79,9 +78,13 @@ main{
   font-weight: 400;
 }
 
+.nav-link:hover{
+  color: #9400ff;
+}
+
 .login-button button {
   border: none;
-  background-color: #9400FF;;
+  background-color: #9400ff;
   padding: 10px 15px;
   border-radius: 5px;
 }
@@ -107,32 +110,37 @@ main{
 }
 
 #spiderman2 h1 {
- margin: 0.5rem 0px;
+  margin: 0.5rem 0px;
 }
 
 .grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem 2rem;
-  
 }
 
 .grid img {
-border-radius: 4px;
+  border-radius: 4px;
+  border-left: 4px solid transparent;
 }
 
-.titulostar {
+.grid img:hover {
+border-left-color: #9400ff;
+}
+
+.titulo-item {
   font-size: 0.6rem;
   margin-bottom: 10px;
   text-align: start;
   font-weight: 800;
 }
 
-.descricao {
+.review {
   display: grid;
 }
 
-.descricaostar {
+
+.review-item {
   display: grid;
   text-align: start;
   color: rgb(82, 80, 80);
@@ -148,6 +156,6 @@ border-radius: 4px;
   border-radius: 4px;
 }
 
-#rv{
-  color: #9400FF;
+#rv {
+  color: #9400ff;
 }
