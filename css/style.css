@@ -78,7 +78,7 @@ main {
   font-weight: 400;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: #9400ff;
 }
 
@@ -121,11 +121,6 @@ main {
 
 .grid img {
   border-radius: 4px;
-  border-left: 4px solid transparent;
-}
-
-.grid img:hover {
-border-left-color: #9400ff;
 }
 
 .titulo-item {
@@ -138,7 +133,6 @@ border-left-color: #9400ff;
 .review {
   display: grid;
 }
-
 
 .review-item {
   display: grid;
@@ -159,3 +153,61 @@ border-left-color: #9400ff;
 #rv {
   color: #9400ff;
 }
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: #f7f7f7;
+}
+
+.form h1,
+p {
+  margin: 5px;
+  text-align: start;
+}
+
+.form h1 {
+  color: #9400ff;
+}
+
+.form p {
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  gap: 0 5px;
+}
+
+.form-item {
+  display: grid;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.form-item input {
+  display: flex;
+  margin: 10px 0;
+  height: 25px;
+  width: 75%;
+  flex-direction: column;
+  border: none;
+  background: #efefef;
+}
+
+.form img {
+  max-width: 100%;
+  display: block;
+  border-radius: 4px;
+}
+
+.form-btn{
+  display: grid;
+  justify-items: start;
+}
+.form-btn a {
+  padding: 0.5rem 1rem;
+  background-color: #9400ff;
+  color: white;
+  text-decoration: none;
+}
+

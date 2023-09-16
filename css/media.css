@@ -1,5 +1,4 @@
 @media screen and (max-width: 730px) {
-
   .navbar {
     padding: 1.5rem 4rem;
   }
@@ -14,7 +13,6 @@
 
   .mobile-menu-icon {
     display: block;
-   
   }
 
   .mobile-menu-icon button {
@@ -51,59 +49,98 @@
     font-size: 1.2rem;
   }
 
-
   #spiderman2 p {
     font-size: 0.7rem;
     margin: 0 25px;
   }
 
-
-  .gg{
+  .gg {
     gap: 30px;
     margin: 0px 10px;
   }
 
-p.review-item{
-  font-size: 0.7rem;
-}
+  p.review-item {
+    font-size: 0.7rem;
+  }
 
-h2{
-  font-size: 1rem;
-}
+  .form {
+    gap: 30px;
+  }
 
-footer{
-  font-size: 0.7rem;
-}
+  .form-item {
+    margin-top: 30px;
+    padding: 5px;
+    gap: 10px;
+  }
 
+  h2 {
+    font-size: 1rem;
+  }
+
+  footer {
+    margin-top: 30px;
+    font-size: 0.7rem;
+  }
 }
 @media screen and (min-width: 1113px) {
-
   .grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-}
 
-
-@media screen and (min-width: 1600px ) {
-
-
-  h1{
-    font-size: 1.6rem;
+  .form {
+    grid-template-columns: 1fr 1fr;
   }
 
-  .gg{
-   margin:0 100px;
+  .form-item h1 {
+    font-size: 2rem;
   }
 
-
-
-  p.titulo-item{
+  .form-item p {
     font-size: 0.8rem;
   }
 
-p.review-item{
-font-size: 1.2rem;
-line-height: 1.5;
+  .venom {
+    object-fit: cover;
+    height: 100%;
+    object-position: center top;
+  }
 }
 
+@media screen and (min-width: 1600px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .gg {
+    margin: 0 100px;
+  }
+
+  .form input {
+    height: 40px;
+  }
+
+  .form-item {
+    padding: 100px;
+  }
+
+  .form-item h1 {
+    font-size: 3rem;
+  }
+
+  .form-item p {
+    font-size: 1rem;
+  }
+
+  p.titulo-item {
+    font-size: 0.8rem;
+  }
+
+  p.review-item {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  form p img {
+    margin: 15px 0;
+  }
 }
