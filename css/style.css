@@ -32,6 +32,8 @@ img {
 }
 
 header {
+  position: sticky;
+  top:0;
   width: 100%;
   background-color: white;
   box-shadow: 0px 3px 10px #464646; /*efeito de sombra*/
