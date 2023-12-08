@@ -6,6 +6,10 @@
   font-family: "Inter", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   text-align: center;
   background: #f7f7f7;
